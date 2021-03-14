@@ -1,6 +1,6 @@
 
 
-Aplicacion para gestión de clientes de concesionarios a nivel nacional
+Aplicación para gestión de clientes de concesionarios a nivel nacional
 
 ### Pre-requisitos
 
