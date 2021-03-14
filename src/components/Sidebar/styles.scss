@@ -1,0 +1,50 @@
+@import '../../assets/index.scss';
+
+._sidebar {
+  background-color: $whiteGray;
+  width: 15.625rem;
+  height: 100vh;
+  padding: 1.5rem;
+  border-right: 2px solid $lightGray;
+  position: fixed;
+  top: 0px;
+}
+
+._list {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+
+  & li {
+    color: $black;
+    font-family: $montserrat;
+    font-size: 0.9rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+    padding-left: 1rem;
+    display: block;
+    margin-right: auto;
+    transition: all 0.6s;
+  }
+
+  & li:hover{
+    border-left: 3px solid $blueDark;
+    transition: all 0.6s;
+  }
+
+}
+
+._title {
+  margin-bottom: 3rem;
+  font-family: $montserrat;
+  color: $blueLight;
+  text-align: center;
+  
+}
+
+._logout {
+  color: green;
+}
+
+

@@ -1,0 +1,41 @@
+@import '../../assets/index.scss';
+
+._parent {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0px;
+}
+
+._navbarParent {
+  width: calc(100% - 15.625rem);
+  float: right;
+  padding: 1.5rem;
+  background-color: $blueGray;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  justify-content: space-between;
+  border-bottom: 2px solid $gray;
+
+  & h2, & p {
+    font-family: $montserrat;
+  }
+}
+
+._searchInput { 
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid $gray;
+  width: 12rem;
+  font-family: $montserrat;
+  padding: 0.2rem;
+}
+
+._select {
+  border: none;
+  background-color: transparent;
+  font-family: $montserrat;
+  margin-left: 1rem;
+}
