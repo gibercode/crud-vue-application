@@ -4,7 +4,6 @@
   import { setStorage } from '../../utils/localStorageService'
 
   const state = reactive({ email: '', password: '', isValid: { email: 0, password: 0 } }) 
-
   const app = getCurrentInstance()
   const instance = app.appContext.config.globalProperties.$router;
 
@@ -22,7 +21,7 @@
     }
   )
 
-  function login () {
+  function login() {
     const { email } = state;
     const userData = { email }
     if(!localStorage.length) setStorage(userData);
